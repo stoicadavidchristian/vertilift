@@ -1,0 +1,20 @@
+{% extends "../main.html" %}
+{% block title %}Deloghează-te{% endblock title %}
+{% block content %}
+<br>
+<div class="d-flex justify-content-center">
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Ai fost delogat!</h5>
+        <p class="card-text">
+            Mulțumim pentru timpul acordat. Pentru mai multe sugestii și întrebări contactați-ne!
+        </p>
+        <br>
+        <hr><a href="{% url 'login' %}" class="btn btn-dark">Loghează-te din nou</a>
+    </div>
+</div>
+</div>
+<br>
+<br>
+<br>
+{% endblock content %}

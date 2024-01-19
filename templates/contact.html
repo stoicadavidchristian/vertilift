@@ -1,0 +1,73 @@
+{% extends "main.html"%}
+{% load static %}
+{% block title %}Vertilift Serv S.R.L{% endblock title %}
+{% block content %}
+
+<div class="container-fluid g-0">
+    <div class="row g-0">
+        <div class="col-md-12">
+            <div class="lc-block overflow-hidden">
+                <div style="max-height:40vh" class="ratio ratio-1x1" lc-helper="gmap-embed">
+                    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0"
+                            marginwidth="0"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Bucharest+(Vertilift)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                                href="https://www.maps.ie/population/"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row justify-content-center mt-3 mt-lg-5">
+        <div class="col-md-5 me-md-5">
+
+            <img class="img-fluid h-100" style="object-fit:cover"
+                src="{% static 'contact.jpg'%}"
+                srcset="{% static 'contact.jpg'%}"
+                sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Gaël Gaborel">
+
+        </div>
+        <div class="col-md-5 bg-light text-center p-5 d-flex flex-column justify-content-center">
+
+            <div class="lc-block mb-4">
+
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                    width="3em" height="3em" viewBox="0 0 24 24" style="" lc-helper="svg-icon" fill="currentColor">
+                    <path
+                        d="M14,11.5A2.5,2.5 0 0,0 16.5,9A2.5,2.5 0 0,0 14,6.5A2.5,2.5 0 0,0 11.5,9A2.5,2.5 0 0,0 14,11.5M14,2C17.86,2 21,5.13 21,9C21,14.25 14,22 14,22C14,22 7,14.25 7,9A7,7 0 0,1 14,2M5,9C5,13.5 10.08,19.66 11,20.81L10,22C10,22 3,14.25 3,9C3,5.83 5.11,3.15 8,2.29C6.16,3.94 5,6.33 5,9Z">
+                    </path>
+                </svg>
+
+            </div>
+            <div class="lc-block mb-3">
+                <div editable="rich">
+
+                    <h2 class="fw-bolder">Contact</h2>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div editable="rich">
+
+                    <p>Str. Calea Călărași, Nr. 26C</p>
+
+                </div>
+            </div>
+            <div class="lc-block">
+                <div editable="rich">
+
+                    <p class="fw-bolder">Telefon: +40 726 199 299</p>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div editable="rich">
+
+                    <p class="fw-bolder">Email: vertilift@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
+{% endblock content %}

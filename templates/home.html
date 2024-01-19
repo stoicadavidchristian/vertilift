@@ -1,0 +1,392 @@
+{% extends "main.html"%}
+{% load static %}
+{% block title %}Vertilift Serv S.R.L{% endblock %}
+{% block content %}
+<!-- HERO SECTION -->
+<div class="overflow-hidden">
+    <div class="container-fluid col-xxl-8">
+        <div class="row flex-lg-nowrap align-items-center g-5">
+            <div class="order-lg-1 w-100">
+                <img style="clip-path: polygon(25% 0%, 100% 0%, 100% 99%, 0% 100%);"
+                    src="{% static 'hero_image.jpg'%}"
+                    class="d-block mx-lg-auto img-fluid" alt="From Canva" loading="lazy"
+                    srcset="{% static 'hero_image.jpg'%}"
+                    sizes="(max-width: 1080px) 100vw, 1080px" width="2160" height="768">
+            </div>
+            <div class="col-lg-6 col-xl-5 text-center text-lg-start pt-lg-5 mt-xl-4">
+                <div class="lc-block mb-4">
+                    <div editable="rich">
+                        <h1 class="fw-bold display-3">Ridicăm Standardele, Modernizăm Experiența</h1>
+                    </div>
+                </div>
+
+                <div class="lc-block mb-5">
+                    <div editable="rich">
+                        <p class="rfs-8">Modernizări, Mentenanță și Întreținere Lifturi</p>
+                    </div>
+                </div>
+
+                <div class="lc-block mb-6"><a class="btn btn-dark px-4 me-md-2 btn-lg" href="#" role="button">Servicii</a>
+                </div>
+                <br>
+                <div class="lc-block">
+                    <div editable="rich">
+                        <p class="fw-bold">Colaborăm cu:</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="lc-block col-3"><img class="img-fluid wp-image-975"
+                            src="{% static 'schindler.jpeg'%}"
+                            width="" height="300" srcset="" sizes="" alt=""></div>
+                    <div class="lc-block col-3"><img class="img-fluid wp-image-977"
+                            src="{% static 'mpifma.png'%}"
+                            width="" height="300" srcset="" sizes="" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>
+<!-- HOME PAGE INFORMATION SECTION -->
+<div class="container">
+    <div class="row mb-4 align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="lc-block text-center">
+                <img class="img-fluid " src="{% static 'image1.jpg'%}"
+                    width="400" height="400" loading="lazy">
+            </div>
+        </div>
+        <div class="col-lg-6 p-lg-6">
+            <div class="lc-block mb-5">
+                <div editable="rich">
+
+                    <h2 class="display-6 fw-bold">Întreținere ascensoare</h2>
+
+                    <p class="lead"><br>Bucurați-vă de o experiență fără griji cu serviciile noastre complete de mentenanță și modernizare a ascensoarelor. La
+                    Vertilift Serv S.R.L, înțelegem importanța unui lift funcțional și sigur în clădirile dvs. Ne-am dedicat să vă oferim
+                    soluții personalizate și eficiente pentru întreținerea ascensoarelor.</p>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div class="d-inline-flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            class="text-dark" viewBox="0 0 16 16" lc-helper="svg-icon">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="ms-3 align-self-center" editable="rich">
+                        <p>Silver - Menținere Esențială:
+                        
+                        Vizite periodice de mentenanță pentru asigurarea funcționării optime.
+                        Intervenție standard în caz de avarii.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div class="d-inline-flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            class="text-pdark" viewBox="0 0 16 16" lc-helper="svg-icon">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="ms-3 align-self-center" editable="rich">
+                        <p>Gold - Menținere Avansată:
+                        
+                        Vizite de mentenanță mai frecvente și extinse.
+                        Intervenție rapidă și suport tehnic avansat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div class="d-inline-flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            class="text-dark" viewBox="0 0 16 16" lc-helper="svg-icon">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="ms-3 align-self-center" editable="rich">
+                        <p>Diamond - Menținere Premium:
+                        
+                        Vizite de mentenanță premium, inclusiv înlocuire preventivă a pieselor uzate.
+                        Intervenție de urgență 24/7 și modernizări periodice incluse.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-4 align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0 order-lg-1">
+            <div class="lc-block text-center"><img class="img-fluid"
+                    src="{% static 'image2.jpg'%}" width="400" height="400"
+                    loading="lazy"></div>
+        </div>
+        <div class="col-lg-6 p-lg-6">
+            <div class="lc-block mb-5">
+                <div editable="rich">
+
+                    <h2 class="display-6 fw-bold">Modernizări ascensoare</h2>
+
+                    <p class="lead"><br>Vertilift Serv S.R.L vă oferă soluții avansate pentru a aduce ascensoarele la cele mai înalte standarde tehnologice și
+                    de siguranță. Modernizările noastre vizează nu doar eficiența tehnică, ci și experiența dumneavoastră globală cu
+                    ascensorul.</p>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div class="d-inline-flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            class="text-dark" viewBox="0 0 16 16" lc-helper="svg-icon">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="ms-3 align-self-center" editable="rich">
+                        <p>Sisteme Avansate de Control:
+                        
+                        Implementarea de sisteme de control modernizate pentru o funcționare mai eficientă și sigură.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div class="d-inline-flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            class="text-dark" viewBox="0 0 16 16" lc-helper="svg-icon">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="ms-3 align-self-center" editable="rich">
+                        <p>Tehnologie de Comunicare Avansată:
+                        
+                        Introducerea de tehnologii de comunicare avansate pentru a îmbunătăți experiența utilizatorilor și pentru notificări
+                        rapide.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lc-block">
+                <div class="d-inline-flex">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            class="text-dark" viewBox="0 0 16 16" lc-helper="svg-icon">
+                            <path
+                                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="ms-3 align-self-center" editable="rich">
+                        <p>Eficiență Energetică:
+                        
+                        Modernizări orientate către eficiența energetică, reducând consumul de energie și impactul asupra mediului.</p>
+                    </div>
+                </div>
+            </div>
+            <p class="lead"><br>Modernizările oferite de Vertilift Serv S.R.L nu sunt doar o investiție în siguranța și eficiența imediată, ci și în
+            valoarea pe termen lung a clădirii dumneavoastră.</p>
+        </div>
+    </div>
+
+</div>
+<br>
+<!-- HOME PAGE SERVICES SECTION -->
+<div class="container py-4">
+    <div class="row mb-4 align-items-center">
+        <div class="col-lg-6 col-xl-5">
+            <div class="lc-block ">
+                <div editable="rich">
+                    <h2 class="fw-bolder">Vertilift Serv S.R.L</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 offset-xl-1">
+            <div class="lc-block opacity-50">
+                <div editable="rich">
+                    <p> Tipurile de abonamente pe care le oferim pe lift:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 g-xxl-5">
+        <div class="col-lg-4">
+            <div class="lc-block card h-100 p-4 py-xl-6 shadow border-0 bg-secondary text-light">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p class="opacity-50 mb-0 ls-3">Mentenanță Silver</p>
+
+                            </div>
+                        </div>
+                        <div class="lc-block mb-4">
+                            <h3 editable="inline" class="fw-bolder d-inline rfs-30 ls-n2">$29</h3>
+                            <span class="opacity-50" editable="inline">/ lună</span>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Mentenanță Regulată:
+                                O vizită pe lună pentru asigurarea funcționării optime a liftului.</p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                    Intervenție Standard:
+                                    Servicii de intervenție în caz de avarii sau probleme.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                    Asistență Telefonică:
+                                    Suport telefonic pentru rezolvarea problemelor minore.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                    Raport de Stare:
+                                    Furnizare periodică a unui raport de stare pentru clienții abonați.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block d-grid">
+                        <a class="btn btn-light btn-lg" href="{% url 'users-register'%}" role="button">Abonează-te</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 ">
+            <div class="lc-block card h-100 p-4 py-xl-6 shadow border-0 bg-warning text-light">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p class="opacity-50 mb-0 ls-3">Mentenanță Gold</p>
+
+                            </div>
+                        </div>
+                        <div class="lc-block mb-4">
+                            <h3 editable="inline" class="fw-bolder d-inline rfs-30 ls-n2">$59</h3>
+                            <span class="opacity-50" editable="inline">/ lună</span>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Mentenanță Avansată:
+                                Vizite de mentenanță de 2 ori pe lună pentru a preveni problemele.</p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Intervenție Rapidă:    
+                                Prioritate crescută pentru intervenții rapide în caz de avarii.</p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Asistență Tehnică Avansată:
+                                Suport telefonic și online extins pentru întrebări și asistență tehnică.</p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Discount pentru Modernizări: 
+                                Reduceri speciale pentru modernizări și upgrade-uri tehnologice.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block d-grid">
+                        <a class="btn btn-light btn-lg" href="{% url 'users-register'%}" role="button">Abonează-te</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="lc-block card h-100 p-4 py-xl-6 bg-info shadow border-0 text-light">
+                <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p class="opacity-50 mb-0 ls-3">Mentenanță Diamond</p>
+
+                            </div>
+                        </div>
+                        <div class="lc-block mb-4">
+                            <h3 editable="inline" class="fw-bolder d-inline rfs-30 ls-n2">$199</h3>
+                            <span class="opacity-50" editable="inline">/ lună</span>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Mentenanță Premium:
+                                Vizite de mentenanță frecvente și extinse, inclusiv înlocuirea preventivă a pieselor uzate.</p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                    Intervenție de Urgență 24/7:
+                                    Servicii de intervenție de urgență disponibile non-stop.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Asistență Prioritară:
+                                Suport telefonic și online prioritar, cu timp de răspuns rapid.</p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                    Modernizări Incluse:
+                                    Modernizări periodice ale componentelor pentru a menține liftul la ultimele standarde.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lc-block mb-2">
+                            <div editable="rich">
+                                <p>
+                                Raport Detaliat Lunar:
+                                Furnizarea unui raport lunar detaliat privind starea și performanța liftului.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc-block d-grid">
+                        <a class="btn btn-light btn-lg" href="{% url 'users-register'%}" role="button">Abonează-te</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{% endblock content %}
